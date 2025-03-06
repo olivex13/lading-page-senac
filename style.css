@@ -9,6 +9,7 @@
 body {
     background: #1F1517;
     color: #FFFFFF;
+    padding-top:60px ;
 }
 
 html {
@@ -292,4 +293,9 @@ a {
 
   #menu {
     position: fixed; 
+    top: 0;
+    width: 100%;
+    background: rgba(31, 21, 23, 0.9);
+    padding: 10px 0;
+    z-index: 1000;
   }
